@@ -20,7 +20,7 @@ class HttpsRedirect extends React.Component {
     }
 
     return (
-      <div style={height: '100%'}>
+      <div style={{height: '100%'}}>
         { this.props.children }
       </div>
     );
